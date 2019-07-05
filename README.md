@@ -1,4 +1,4 @@
-# Honeypot scripts
+# Honeypot scripts in Python 3
 A collection of honeypot scripts written in python3 for services like ssh,ftp,http,etc
 
 Currently supported for HTTP,SSH services
