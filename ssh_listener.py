@@ -17,7 +17,6 @@ class SSHServerHandler (paramiko.ServerInterface):
         try:
             logfile_handle = open(LOGFILE,"a")
             print("New login: " + username + ":" + password)
-            print(self)
             print(self.ipaddr, self._sshtun_port, self.ssh_user, self.ssh_user_pass)
             logfile_handle.write(self.ipaddr+self._sshtun_port+self.ssh_user+self.ssh_user_pass+ "\n")
             logfile_handle.close()
