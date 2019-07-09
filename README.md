@@ -18,3 +18,5 @@ This can be used as a basic honeypot system which could try to get the HTTP head
 SSH script is just logging the username and password tried by the client and then sending a wrong password response everytime.
 This could be used for getting the passwords and usernames which the hackers/clients try on the system to get into the system.
 
+## FTP Script
+It needs a user.conf file to store the username:password in this pattern and then ftp listener will authenticate accordingly.All attempts to the ftp server are logged automatically to a file logins.txt
